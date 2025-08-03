@@ -1,0 +1,119 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Üst Başlık */
+.merve-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #330733;
+    color: rgb(241, 235, 235);
+    padding: 20px;
+}
+
+.merve-logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.merve-logo span {
+    color: #f4a300;
+}
+
+/* Menü Kutusu */
+.merve-menu-box {
+    background-color: #f4a300;
+    padding: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.merve-menu-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.merve-menu-box ul li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.merve-menu-box ul li a {
+    text-decoration: none;
+    color: #5a3825;
+    transition: color 0.3s ease;
+}
+
+.merve-menu-box ul li a:hover {
+    color: white;
+}
+
+/* Ana Görsel */
+.merve-main-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Alt Bölüm */
+.merve-bottom-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.merve-left-box {
+    flex: 1;
+    background-color: #f4a300;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.merve-left-box h2 {
+    margin: 0 0 10px 0;
+}
+
+.merve-center-box,
+.merve-right-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.merve-center-box img,
+.merve-right-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+.merve-footer {
+    background-color: #330733;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
